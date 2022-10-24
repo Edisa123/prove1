@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="no">
+    <head>
+        <meta charset="UTF-8">
+        <title>Oppgave 1</title>
+        <style>
+           table > tbody >tr:nth-child(even){
+                background-color: blue;
+                padding: 10px;
+            }
+            table > tbody >tr:nth-child(odd){
+                background-color: green;
+                padding: 10px;
+            }
+            td{
+                color: white;
+            }
+            thead{
+                color:red;
+                background-color: aqua;
+                border-collapse: collapse;
+                width: 4rem;
+            }
+            tbody{
+                padding: 1px 7px;
+            }
+            body{
+                object-position: center;
+            }
+        </style>
+    </head>
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>År</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Måned</th>
+                <th>Tjent</th>       
+            </tr>
+            <tr>
+                <td>januar</td>
+                <td>10000 kr</td>
+            </tr>
+            <tr>
+                <td>februar</td>
+                <td>15000 kr</td>
+            </tr>
+            <tr>
+                <td>mars</td>
+                <td>25000 kr</td>
+            </tr>
+            <tr>
+                <td>april</td>
+                <td>15000 kr</td>
+            </tr>
+            <tr>
+                <td>mai</td>
+                <td>15000 kr</td>
+            </tr>
+            <tr>
+                <td>juni</td>
+                <td>10000 kr</td>
+            </tr>
+            <tr>
+                <td>juli</td>
+                <td>15000 kr</td>
+            </tr>
+            <tr>
+                <td>sum: 105000 kr</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
